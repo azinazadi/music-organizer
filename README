@@ -1,0 +1,26 @@
+= Music Orderer
+
+this program re-orders your music files (mp3s) in a nice directory structure according to their artist, album and track number.
+I wrote this program, because I copied a lot of MP3s from an IPod but they just had some crazy names in crazy folders, totally random, and I liked to sort them out into the appropriate folders. So using this program you can organize your music files based on the ID3 tags stored in the files, rename and move them to a very nice directory structure, like 
+	> sorted/Nina Simone/Jazz And The City [Disc 1]/11 - Sugar In My Bowl
+
+= how to use
+dependencies:  
+	you should have eyeD3[http://eyed3.nicfit.net] package installed on your machine. in ubuntu run in terminal
+		>sudo apt-get install eyed3
+
+configuration: 
+	open the sort.py with a text editor and change the rootdir and exportdir. 
+
+run:
+	run the python file in a terminal like
+		> python sort.py
+
+= Lisence
+Drink License:
+This program and it's source codes are totally and unrestrictedly free, ofcourse without any guarantee, and if you liked it and we met someday, somewhere, you are free to buy me a drink :)
+
+Have fun...
+
+Copy Right:Azin Azadi 2011
+https://github.com/azinazadi/music-organizer
